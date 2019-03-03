@@ -1,0 +1,58 @@
+$text-01: #152935;
+$text-02:#5a6872;
+$text-03:#cdd1d4;
+$ui-01:#fff;
+$ui-03:#dfe3e6;
+
+body {
+    // font-family: 'ibm-plex-sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color:$ui-01;
+    text-align: center;
+}
+
+.content {
+    max-width:800px;
+    margin:50px auto;
+}
+
+.title {
+    font-weight:300;
+    color:#3d70b2;
+}
+
+.calories {
+    font-weight: 400;
+    margin-top:10px;
+}
+
+.init-btn {
+    display:inline-block;
+    margin:0 10px;
+
+    background-color:$ui-01;
+    color:$text-01;
+
+    &:hover {
+        background-color:$ui-03;
+    }
+
+    .bx--btn--primary:first-child {
+        background-color:$ui-01;
+        color:$text-01;
+    }
+
+    .bx--btn--primary:first-child:hover {
+        background-color:$ui-03;
+    }
+}
+
+.bx--number__controls {
+    display:none;
+}
+
+.link {
+    margin-top:50px;
+    font-style:italic;
+    font-size:14px;
+    color:$text-02;
+}
