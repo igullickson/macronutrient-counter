@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/macronutrient-counter/precache-manifest.dc853dcce917c8656f5da85345e1fe01.js"
+  "/macronutrient-counter/precache-manifest.47c7dd078469851ef9123990307f28cd.js"
 );
 
 workbox.clientsClaim();
