@@ -4,6 +4,8 @@ $text-03:#cdd1d4;
 $ui-01:#fff;
 $ui-03:#dfe3e6;
 
+html, body, .content {overflow-x: hidden;}
+
 body {
     background-color:$ui-01;
     text-align: center;
