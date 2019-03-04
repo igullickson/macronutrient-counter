@@ -1,13 +1,13 @@
 {
-  "main.css": "/macronutrient-counter/static/css/main.9c0010f7.chunk.css",
-  "main.js": "/macronutrient-counter/static/js/main.20642273.chunk.js",
-  "main.js.map": "/macronutrient-counter/static/js/main.20642273.chunk.js.map",
+  "main.css": "/macronutrient-counter/static/css/main.cf68efca.chunk.css",
+  "main.js": "/macronutrient-counter/static/js/main.31ac4370.chunk.js",
+  "main.js.map": "/macronutrient-counter/static/js/main.31ac4370.chunk.js.map",
   "runtime~main.js": "/macronutrient-counter/static/js/runtime~main.7c56263d.js",
   "runtime~main.js.map": "/macronutrient-counter/static/js/runtime~main.7c56263d.js.map",
   "static/js/2.04b552f1.chunk.js": "/macronutrient-counter/static/js/2.04b552f1.chunk.js",
   "static/js/2.04b552f1.chunk.js.map": "/macronutrient-counter/static/js/2.04b552f1.chunk.js.map",
   "index.html": "/macronutrient-counter/index.html",
-  "precache-manifest.47c7dd078469851ef9123990307f28cd.js": "/macronutrient-counter/precache-manifest.47c7dd078469851ef9123990307f28cd.js",
+  "precache-manifest.59eb409c0d7a854347a89e1f2a72f185.js": "/macronutrient-counter/precache-manifest.59eb409c0d7a854347a89e1f2a72f185.js",
   "service-worker.js": "/macronutrient-counter/service-worker.js",
-  "static/css/main.9c0010f7.chunk.css.map": "/macronutrient-counter/static/css/main.9c0010f7.chunk.css.map"
+  "static/css/main.cf68efca.chunk.css.map": "/macronutrient-counter/static/css/main.cf68efca.chunk.css.map"
 }
