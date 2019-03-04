@@ -2,9 +2,6 @@ import React from "react"
 import {Tooltip, Button, NumberInput, Form} from "carbon-components-react"
 
 import './Counter.scss'
-// import {select} as d3.select from 'd3-selection'
-// import {interpolate} as d3.select from 'd3-interpolate'
-// import {arc} as d3.select from 'd3-shape'
 
 import * as d3 from 'd3'
 
@@ -55,10 +52,6 @@ class Counter extends React.Component {
                                 <Button onClick={() => this.props.onAddClick(this.props.name, this.state.add)}>Add</Button>
                             </Form>
                         </Tooltip>
-                        
-                    {/* <svg 
-                        onClick={() => this.props.onAddClick()} 
-                        className="add" width="20" height="20" viewBox="0 0 10 10" fill="#5a6872"><path d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z"></path></svg> */}
                 </div>
             </div>
         )
@@ -67,8 +60,8 @@ class Counter extends React.Component {
     renderD3() {
         // Based on this great Demo: http://bl.ocks.org/mbostock/5100636
         const tau = 2 * Math.PI;
-        const radius = 80;
-        const padding = 30;
+        const radius = 70;
+        const padding = 15;
         const boxSize = (radius + padding) * 2;
         const ratio = this.props.value / this.props.goal;
 
@@ -108,8 +101,6 @@ class Counter extends React.Component {
             .datum({ endAngle: 0 })
             .style('fill', color)
             .transition()
-            // .duration(1000)
-            // .delay(1000)
             .attrTween('d', arcTween(ratio * tau));
 
         // Text Labels
@@ -118,16 +109,12 @@ class Counter extends React.Component {
         valueText
             .style('opacity', 0)
             .transition()
-            // .duration(1000)
-            // .delay(1500)
             .style('opacity', 1)
             .text(`${this.props.value}g`);
 
         goalText
             .style('opacity', 0)
             .transition()
-            // .duration(1000)
-            // .delay(1700)
             .style('opacity', 1)
             .text(`/${this.props.goal}g`);
 
